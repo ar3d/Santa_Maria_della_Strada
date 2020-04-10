@@ -21,7 +21,7 @@
             
             //get the entire new spot group and scale it to 1
             var newinfogroup=document.getElementById(evt.detail.newinfo);
-            newinfogroup.setAttribute("scale","3 3 3");
+            newinfogroup.setAttribute("scale","0.5 0.5 0.5");
           });
         }
       });
@@ -35,7 +35,7 @@
           //add image source of hotspot icon
           this.el.setAttribute("src","#info-icon");
           //resize
-          this.el.setAttribute("scale","0.5 0.5 0.5");
+          this.el.setAttribute("scale","2 2 2");
           //make the icon look at the camera all the time
           this.el.setAttribute("look-at","#cam");
           
