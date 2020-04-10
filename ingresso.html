@@ -5,11 +5,18 @@
 <body>
    <a-scene>
       <a-assets>
-         <img id="ingresso" src="images/s_maria_1.jpg">         
+         <img id="ingresso" src="images/s_maria_1.jpg"> 
+         <img id="freccia" src="icone/next.png">
       </a-assets>
      <a-entity camera="fov: 45" position="0 1.75 0" wasd-controls="" rotation="" look-controls="" aframe-injected="" data-aframe-inspector-original-camera="">
-     </a-entity>
+         </a-entity>           
      <a-sky src="#ingresso" rotation="0 270 0"></a-sky>
+        </a-image>
+     <a-link position="" link="visualAspectEnabled: false" href="https://it.qr-code-generator.com/">
+&nbsp; <a-image src="#freccia" rotation="90 180 90" position="-0.51663 0.93657 -4.21736" height="1.2" width="1.2" opacity=" 0.6 " event-set__mouseenter=" opacity: 1 " eventset__mouseleave=" opacity: 0.6 " material="" geometry="">
+&nbsp; <!-- A-image-->
+<!-- A-link-->
+        </a-image></a-link>
         </a-scene>
 </body>
 </html>
