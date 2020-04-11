@@ -35,14 +35,14 @@
           //add image source of hotspot icon
           this.el.setAttribute("src","#info-icon");
           //resize
-          this.el.setAttribute("scale","2 2 2");
+          this.el.setAttribute("scale","3 3 3");
           //make the icon look at the camera all the time
           this.el.setAttribute("look-at","#cam");
           
           var data=this.data;
           
           this.el.addEventListener('click',function(){
-            this.setAttribute("scale","2.5 1.25 1");
+            this.setAttribute("scale","20 10 1");
             this.setAttribute("src",data.infolink);
           });
           this.el.addEventListener('mouseleave',function(){
